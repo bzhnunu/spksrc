@@ -17,7 +17,6 @@ LICENSE  =
 
 INSTALLER_SCRIPT = src/installer.sh
 SSS_SCRIPT       = src/dsm-control.sh
-ADDITIONAL_SCRIPTS =
 
 INSTALL_PREFIX = /usr/local/$(SPK_NAME)
 
@@ -29,7 +28,7 @@ include ../../mk/spksrc.spk.mk
 tvheadend_extra_install:
 	install -m 755 -d $(STAGING_DIR)/var
 	install -m 755 -d $(STAGING_DIR)/app
-	install -m 644 src/app/config $(STAGING_DIR)/app/config
+	install -m 755 src/app/tvheadend.cgi.pl $(STAGING_DIR)/app/tvheadend.cgi
 	install -m 755 -d $(STAGING_DIR)/app/images
 	for size in 16 24 32 48 ; \
 	do \
