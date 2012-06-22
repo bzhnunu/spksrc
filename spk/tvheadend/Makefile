@@ -15,8 +15,6 @@ DISPLAY_NAME = Tvheadend
 HOMEPAGE = https://www.lonelycoder.com/tvheadend/
 LICENSE  =
 
-WIZARDS_DIR = src/wizard/
-
 INSTALLER_SCRIPT = src/installer.sh
 SSS_SCRIPT       = src/dsm-control.sh
 ADDITIONAL_SCRIPTS =
