@@ -8,7 +8,6 @@ DNAME="Tvheadend"
 INSTALL_DIR="/usr/local/${PACKAGE}"
 PATH="${INSTALL_DIR}/bin:/usr/local/bin:/bin:/usr/bin:/usr/syno/bin"
 RUNAS="tvheadend"
-CFG_FILE="${INSTALL_DIR}/var/settings.json"
 TMP_DIR="${SYNOPKG_PKGDEST}/../../@tmp"
 
 
